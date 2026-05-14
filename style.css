@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:  #12131b;
+color: white;
+font-family: 'Inter', sans-serif;
+}
+
+header {
+   padding: 10px 10px;
+   font-size: 12px;
+  font-weight: 700;  
+}
+
+.titulo {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding: 35px;
+margin: 5px;
+}
+.titulo h1 {
+    font-size: 40px;
+    padding: 15px 0;
+
+}
+.titulo p {
+   font-size: 15px;
+   color: #777681;
+
+}
+
+.pesquisa-container {
+   
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+   align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+.pesquisa-container span {
+    
+   position: absolute;
+    left: 15px;
+background-color: transparent;
+}
+.pesquisa-container input {
+    width: 100%;
+    padding: 15px 120px 15px 40px;
+    border: none;
+    color: white;
+    border-radius:15px ;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 15px;
+   
+}
+
+.button {
+    padding: 15px 24px;
+right: 2px;
+top: 50%;
+position: absolute;
+transform: translateY(-50%);
+    border: none;
+    border-radius: 15px;
+    background-color: #ff5722;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+    
+}
+.imagem {
+    flex: 1;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.infor-prato {
+    flex: 1;
+}
+.infor {
+    color: oklch(87.9% 0.169 91.605);
+    font-size: 12px;
+   margin: 5px;
+   padding: 10px;
+   background: transparent;
+
+}
+.infor-prato h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.infor-prato ul {
+    list-style: none;
+   padding-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+}
+.receita {
+    display: flex;
+  
+}
+.coluna {
+    flex: 1;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}

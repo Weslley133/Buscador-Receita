@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+NZ+Guides&display=swap"
+        rel="stylesheet">
+    <title>Lista de tarefas</title>
+</head>
+<header class="header">
+    <h3>Receitas Rapidas</h3>
+</header>
+
+<body>
+    <div class="titulo">
+        <h1>O que você quer cozinhar? </h1>
+        <p>Descubra receitas selecionadas de nosso ateliê digital, projetadas <br> para o chef domêstico focado.</p>
+    </div>
+    <div class="pesquisa-container">
+        <span>🔍︎</span>
+        <input type="text" id="txt" placeholder="Busque por ingredientes ou pratos...">
+        <button class="button">Buscar</button>
+    </div>
+    <div class="prato">
+        <div class="container">
+            <div class="imagem">
+                <img id="foto-imagem" src="http://loremflickr.com/" alt="Imagem do prato">
+            </div>
+            <div class="infor-prato">
+                <span class="infor">★ Prato sugerido</span>
+                <h1 id="nomeprato">Macarrão<br> Cremoso com<br>Tomate</h1>
+                <ul>
+                    <li class="item">🕒 25 Min</li>
+                    <li class="item">🍴 2 Porções</li>
+                    <li class="item">🔥 420 Kcal</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="receita">
+        <div class="coluna">
+            <h3>🛒Ingredientes</h3>
+            <ul id="ingredientes"></ul>
+        </div>
+        <div class="coluna">
+            <h3>👨🏻‍🍳 Modo de Preparo</h3>
+            <ol id="preparo"></ol>
+        </div>
+    </div>
+<script src="script.js"></script>
+
+</body>
+
+</html>
