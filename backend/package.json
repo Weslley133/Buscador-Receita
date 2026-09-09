@@ -1,2 +1,6 @@
 
-{}
+{
+  "scripts": {
+    "start": "node serve.js"
+  }
+}
