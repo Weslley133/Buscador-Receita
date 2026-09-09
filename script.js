@@ -48,7 +48,7 @@ btn.addEventListener("click", async () => {
 btn.textContent = "Gerando...";
 btn.disabled = true;
     try {
-        const resultado = await fetch("http://localhost:3000/api/receita", {
+        const resultado = await fetch("https://buscador-receita.onrender.com/api/receita", {
             method: "POST",
 
             headers: {
