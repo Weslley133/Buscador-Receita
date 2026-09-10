@@ -2,9 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:  #12131b;
-color: white;
-font-family: 'Inter', sans-serif;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background:
+       
+        linear-gradient(135deg, #0f1117, #1b1d27);
 }
 
 header {
